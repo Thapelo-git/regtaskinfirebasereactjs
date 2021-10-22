@@ -1,0 +1,153 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0%;
+    background-color: rgb(160, 156, 156);
+    height: 10%;
+    right: 0%;
+   }
+   .navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 30px;
+    color: white;
+}
+   .container{
+    width: 100%;
+    height: 90%;
+    /* background-image: url(ocean3.jpg); */
+    background-color: white;
+    background-size:cover ;
+    background-position: center;
+  position: absolute;
+  top: 3%;
+  
+  right: 0%;
+  left: 0%;
+}
+   .userbox{
+    /* width: auto; */
+    height: 65%;
+    background: rgb(209, 208, 208);
+    
+    top: 15%;
+    left: 60%;
+    right: 5%;
+    position: absolute;
+    padding: 30px 10px;
+}
+.form1{
+    width: 50%;
+    height: 65%;
+    background: rgb(209, 208, 208);
+    
+    top: 15%;
+    left: 5%;
+    position: absolute;
+ padding: 30px 10px;
+}
+.headings{
+    color: blue;
+}
+.allbutton{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: rgb(71, 30, 90);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.userdetails{
+    width: 30%;
+    height: 65%;
+    background: rgb(209, 208, 208);
+    
+    top: 15%;
+    left: 30%;
+    /* right: 5%; */
+    position: absolute;
+    padding: 30px 10px;
+}
+.userdetails1{
+    width: 10%;
+    height: 65%;
+    background: rgb(209, 208, 208);
+    
+    top: 15%;
+    left: 50%;
+    /* right: 5%; */
+    position: absolute;
+    padding: 30px 10px;
+}
+.newsfeed{
+    width: 100%;
+    height: 90%;
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    background-color: white;
+    top: 11%;
+    right: 0%;
+}
+.listapi{
+    width: 100%;
+    height: 90%;
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    background-color: white;
+    top: 11%;
+    right: 0%;
+    /* position: absolute;  */
+}
+.main{
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+.left-column{
+    background-color: rgb(208, 240, 240);
+    height: 500%;
+    width: 49%;
+    float: left;
+    border-bottom-left-radius: 20px;
+}
+.right-column{
+    background-color: rgb(155, 243, 155);
+    height: 500%;
+    width: 49%;
+    float: right;
+    border-bottom-right-radius: 20px;
+}
+.titleapi{
+    /* text-align: left; */
+    text-size-adjust: 10px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.p{
+    text-size-adjust: 10px;
+    font-size: 18px;  
+}
+.apiimage{
+    width: 20%;
+    height: 5%;
+    border-radius: 50%;
+}
+.apiimageinsite{
+    width: 80%;
+    height: 10%;
+    border-radius: 50%;  
+}
+.boxapi{
+    width: 50%;
+    top: 25%;
+    left: 30%;
+    padding: 70px 10%;
+    height: 100%; 
+}
