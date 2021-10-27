@@ -1,45 +1,6 @@
-.navbar{
-    width: 100%;
-    margin: auto;
-    padding: 3px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: 0%;
-    background-color: rgb(160, 156, 156);
-    height: 10%;
-    right: 0%;
-   }
-   .navbar ul li{
-    list-style: none;
-    display:inline-block;
-    margin: 0 30px;
-    color: white;
-}
-   .container{
-    width: 100%;
-    height: 90%;
-    /* background-image: url(ocean3.jpg); */
-    background-color: white;
-    background-size:cover ;
-    background-position: center;
-  position: absolute;
-  top: 3%;
-  
-  right: 0%;
-  left: 0%;
-}
-   .userbox{
-    /* width: auto; */
-    height: 65%;
-    background: rgb(209, 208, 208);
-    
-    top: 15%;
-    left: 60%;
-    right: 5%;
-    position: absolute;
-    padding: 30px 10px;
+.navbar {
+    margin-bottom: 30;
+    background-color: #0eada0;
 }
 .form1{
     width: 50%;
@@ -52,7 +13,7 @@
  padding: 30px 10px;
 }
 .headings{
-    color: blue;
+    color: rgb(174, 174, 179);
 }
 .allbutton{
     border:none;
@@ -63,17 +24,17 @@
     font-size: 18px;
     border-radius: 20px;
 }
-.userdetails{
+/* .userdetails{
     width: 30%;
     height: 65%;
     background: rgb(209, 208, 208);
     
     top: 15%;
     left: 30%;
-    /* right: 5%; */
+    
     position: absolute;
     padding: 30px 10px;
-}
+} */
 .userdetails1{
     width: 10%;
     height: 65%;
@@ -81,7 +42,7 @@
     
     top: 15%;
     left: 50%;
-    /* right: 5%; */
+    
     position: absolute;
     padding: 30px 10px;
 }

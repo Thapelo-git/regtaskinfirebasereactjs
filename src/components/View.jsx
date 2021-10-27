@@ -28,8 +28,8 @@ const View = () => {
             {Object.keys(data).map((userId)=>{
                 if(userId === id){
                     return(
-                        <div className="userdetails">
-                                <div className="card-header lead">
+                        <div className="col-md-6">
+                                <div className="card-header lead mb-4">
                                 <h2 className="headings">User Details</h2>
                                 </div>
                                 <div className="card-body">
@@ -61,10 +61,10 @@ const View = () => {
                                         <tr>
                                         
                                             <td><Link to="/">
-                                    <button className="btn btn-primary">Go Back</button>
+                                    <button className="btn btn-info">Go Back</button>
                                 </Link></td>
                                             <td><Link to={`/update/${id}`}>
-                                <button className="btn btn-secondary">Update</button>
+                                <button className="btn btn-info">Update</button>
                                    </Link></td>
                                         </tr>
                                     </table>
