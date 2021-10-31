@@ -5,7 +5,9 @@ const Viewapi = ({action}) => {
     return (
         <div>
                  <img src={action.image_link} className="apiimageinsite"/>
+              
             <table>
+            <div className="left-column">
                 <tr>
                     <th>ID</th>
                     <td>{action.id}</td>
@@ -30,10 +32,13 @@ const Viewapi = ({action}) => {
                     <th>product_link</th>
                     <td>{action.product_link}</td>
                 </tr>
+                
                 <tr>
                     <th>description</th>
                     <td>{action.description}</td>
                 </tr>
+                </div>
+                <div className="right-column">
                 <tr>
                     <th>rating</th>
                     <td>{action.rating}</td>
@@ -58,6 +63,7 @@ const Viewapi = ({action}) => {
                     <th>api_featured_image</th>
                     <td>{action.api_featured_image}</td>
                 </tr>
+                </div>
             </table>
             
              

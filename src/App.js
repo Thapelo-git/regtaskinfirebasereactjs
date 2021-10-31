@@ -16,7 +16,7 @@ function App() {
       <Switch>
         {/* <Route exact path="/" component={ListRecord}/> Viewapi*/}
         <Route exact path="/" component={Add}/>
-        <Route exact path="/" component={AddEdit}/>
+        {/* <Route exact path="/" component={AddEdit}/> */}
         <Route exact path="/update/:id" component={Add}/>
         <Route exact path="/view/:id" component={View}/>
         <Route exact path="/APIDATA" component={APIDATA}/>
